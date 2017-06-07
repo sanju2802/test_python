@@ -11,4 +11,3 @@ def sort_elements(numlist):
     return numlist
     
 print sort_elements(mylist)
-print “something”

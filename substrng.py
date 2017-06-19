@@ -10,6 +10,9 @@ while(i<len(a) and j<len(b)):
         i+=1
         j=0
     if(j==len(b)):
+        out_text = "b is substring of a"
         print "b is substring of a"
     elif(i==len(a)):
         print "b is not a substring of a"
+
+assert out_text == "b is substring of a"
